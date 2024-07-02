@@ -1,0 +1,741 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COCKTAIL'S BAR : FIVE STAR BAR</title>
+    <meta
+      name="description"
+      content="Cocktails Bar is the Best Bar facilated with Expertise Servers and Staff Members"
+    />
+    <meta
+      name="keywords"
+      content="Cocktail,Bar,Game, Enjoy, Party,Wine , Beer, Five Star Bar, Best Bar, Top Five Bar , High Tech Bar Near Me , Booking Bar"
+    />
+
+    <!-- external css file link  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome cdn Link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Google Fonts Link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=DM+Serif+Display:ital@1&family=Lobster&family=Playwrite+NG+Modern:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Cinzel:wght@400..900&family=DM+Serif+Display:ital@1&family=Lobster&family=Playwrite+NG+Modern:wght@100..400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <section class="background-image"></section>
+
+      <!-- Navbar code  -->
+      <nav class="nav-container">
+        <div class="logo">
+          <img src="./assets/Pi7_logo.png" alt="" />
+        </div>
+        <div>
+          <ul class="mobile-nav-content" onclick="hideNavbar()">
+            <div class="mobile-nav-cancel" onclick="hideNavbar()">
+              <!-- <i class="fa-solid fa-bars"></i> --><i
+                class="fa-regular fa-square-xmark"
+              ></i>
+            </div>
+            <li class="nav-item"><a href="#HOME">HOME</a></li>
+            <li class="nav-item"><a href="#FEATURED">FEATURED COCKTAIL</a></li>
+            <li class="nav-item"><a href="#MENU">MENU</a></li>
+            <li class="nav-item"><a href="#REVIEWS">REVIEWS</a></li>
+
+            <button><a href="#CONTACTS">RESERVATIONS</a></button>
+          </ul>
+
+          <ul class="nav-content">
+            <li class="nav-item"><a href="#HOME">HOME</a></li>
+            <li class="nav-item"><a href="#FEATURED">FEATURED COCKTAIL</a></li>
+            <li class="nav-item"><a href="#MENU">MENU</a></li>
+            <li class="nav-item"><a href="#REVIEWS">REVIEWS</a></li>
+
+            <button><a href="#CONTACTS">RESERVATIONS</a></button>
+          </ul>
+          <div class="mobile-nav" onclick="showNavbar()">
+            <i class="fa-solid fa-bars mobileNavI"></i>
+            <!-- <i class="fa-regular fa-circle-xmark"></i> -->
+          </div>
+        </div>
+      </nav>
+
+      <!-- Introduction Code  -->
+      <header class="hero-section" id="HOME">
+        <div class="hero-intro">
+          <h2>WELCOME TO THE</h2>
+          <h1>COCKTAIL'S BAR</h1>
+          <h2>WE’VE GOT THE RIGHT INGREDIENTS FOR YOUR FAVORITE COCKTAIL!</h2>
+          <div class="para">
+            <p>Come visit us and enjoy any of our awesome meals!</p>
+            <p>Book online or call (123)456-7891</p>
+          </div>
+          <button class="button"><a href="">READ MORE</a></button>
+        </div>
+      </header>
+
+      <!-- Featured Cocktail code  -->
+      <section id="FEATURED">
+        <h1 class="heading-h1">FEATURED-COCKTAIL'S</h1>
+        <div class="featured-section">
+          <div class="feature-image-section" style="flex: 1">
+            <div class="image-slideshow">
+              <div class="image fade">
+                <img src="assets/Cocktail2.jpg" alt="Mountain Top" />
+              </div>
+              <div class="image fade">
+                <img src="assets/Cocktail3.jpg" alt="Mountain Top" />
+              </div>
+              <div class="image fade">
+                <img src="assets/Cocktail4.jpg" alt="Mountain Top" />
+              </div>
+            </div>
+          </div>
+          <div class="feature-info-section" style="flex: 1.5">
+            <h1>YOU KNOW!</h1>
+            <h1>YOU <span>WANT IT!</span></h1>
+            <p>Join Us for Game Time and Great Cocktail.</p>
+            <button class="featured-button"><a href="">ORDER NOW</a></button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Category wise drink Menu  -->
+      <section id="MENU">
+        <h1 class="heading-h1">MENU</h1>
+        <div class="menu-container">
+          <aside class="menu-sidebar" style="flex: 1">
+            <h3>Filter by Category</h3>
+            <div class="filter">
+              <button data-name="All" class="active">All</button>
+              <button data-name="Cocktail">Cocktail</button>
+              <button data-name="Beer">Beer</button>
+              <button data-name="Wine">Wine</button>
+            </div>
+          </aside>
+          <section class="menu-content" style="flex: 3">
+            <div class="menu-item" data-name="Cocktail">
+              <div class="content">
+                <img src="assets/Cocktail/cocktail_01.png" alt="" />
+                <h3>Cocktail</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Beer">
+              <div class="content">
+                <img src="assets/Beer/Beer_01.png" alt="" />
+                <h3>Beer</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Wine">
+              <div class="content">
+                <img src="assets/Wine/Wine_01.png" alt="" />
+                <h3>Wine</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Cocktail">
+              <div class="content">
+                <img src="assets/Cocktail/cocktail_02.png" alt="" />
+                <h3>Cocktail</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Beer">
+              <div class="content">
+                <img src="assets/Beer/Beer_02.png" alt="" />
+                <h3>Beer</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Wine">
+              <div class="content">
+                <img src="assets/Wine/Wine_03.png" alt="" />
+                <h3>Wine</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Cocktail">
+              <div class="content">
+                <img src="assets/Cocktail/cocktail_03.png" alt="" />
+                <h3>Cocktail</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Cocktail">
+              <div class="content">
+                <img src="assets/Cocktail/cocktail_04.png" alt="" />
+                <h3>Cocktail</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Cocktail">
+              <div class="content">
+                <img src="assets/Cocktail/cocktail_05.png" alt="" />
+                <h3>Cocktail</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Cocktail">
+              <div class="content">
+                <img src="assets/Cocktail/cocktail_06.png" alt="" />
+                <h3>Cocktail</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Cocktail">
+              <div class="content">
+                <img src="assets/Cocktail/cocktail_07.png" alt="" />
+                <h3>Cocktail</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Cocktail">
+              <div class="content">
+                <img src="assets/Cocktail/cocktail_08.png" alt="" />
+                <h3>Cocktail</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Beer">
+              <div class="content">
+                <img src="assets/Beer/Beer_03.png" alt="" />
+                <h3>Beer</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Beer">
+              <div class="content">
+                <img src="assets/Beer/Beer_04.png" alt="" />
+                <h3>Beer</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Beer">
+              <div class="content">
+                <img src="assets/Beer/Beer_05.png" alt="" />
+                <h3>Beer</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Wine">
+              <div class="content">
+                <img src="assets/Wine/Wine_03.png" alt="" />
+                <h3>Wine</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Wine">
+              <div class="content">
+                <img src="assets/Wine/Wine_04.png" alt="" />
+                <h3>Wine</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Wine">
+              <div class="content">
+                <img src="assets/Wine/Wine_05.png" alt="" />
+                <h3>Wine</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Wine">
+              <div class="content">
+                <img src="assets/Wine/Wine_06.png" alt="" />
+                <h3>Wine</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Wine">
+              <div class="content">
+                <img src="assets/Wine/Wine_07.png" alt="" />
+                <h3>Wine</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+            <div class="menu-item" data-name="Wine">
+              <div class="content">
+                <img src="assets/Wine/Wine_08.png" alt="" />
+                <h3>Wine</h3>
+                <div class="price">
+                  <p>Price: <span>1200RS</span></p>
+                  <span id="discount">60% Off</span>
+                </div>
+              </div>
+              <div class="menu-content-info">
+                <h1>Name</h1>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <button>Order Now</button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <!-- Reviews Section -->
+      <section id="REVIEWS">
+        <h1 class="heading-h1">Reviews</h1>
+        <div class="slider-section">
+          <div class="slider-container">
+            <div class="slider-content">
+              <div class="review-card">
+                <div class="flex-profile">
+                  <div class="profile-image">
+                    <img src="assets/person_01.jpg" alt="Profile Image" />
+                  </div>
+                  <div class="heading-image">
+                    <div class="heading">
+                      <h3 class="name-cus">Justin Raj</h3>
+                    </div>
+                    <div class="rating-image">
+                      <img
+                        src="https://static.vecteezy.com/system/resources/thumbnails/009/663/927/small/5-star-rating-review-star-transparent-free-png.png"
+                        alt="Rating Image"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <p class="prop">
+                  Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                </p>
+              </div>
+              <div class="review-card">
+                <div class="flex-profile">
+                  <div class="profile-image">
+                    <img src="assets/person_02.jpg" alt="Profile Image" />
+                  </div>
+                  <div class="heading-image">
+                    <div class="heading">
+                      <h3 class="name-cus">Justin Raj</h3>
+                    </div>
+                    <div class="rating-image">
+                      <img
+                        src="https://static.vecteezy.com/system/resources/thumbnails/009/663/927/small/5-star-rating-review-star-transparent-free-png.png"
+                        alt="Rating Image"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <p class="prop">
+                  Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                </p>
+              </div>
+              <div class="review-card">
+                <div class="flex-profile">
+                  <div class="profile-image">
+                    <img src="assets/person_03.jpg" alt="Profile Image" />
+                  </div>
+                  <div class="heading-image">
+                    <div class="heading">
+                      <h3 class="name-cus">Justin Raj</h3>
+                    </div>
+                    <div class="rating-image">
+                      <img
+                        src="https://static.vecteezy.com/system/resources/thumbnails/009/663/927/small/5-star-rating-review-star-transparent-free-png.png"
+                        alt="Rating Image"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <p class="prop">
+                  Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                </p>
+              </div>
+              <div class="review-card">
+                <div class="flex-profile">
+                  <div class="profile-image">
+                    <img src="assets/person_04.jpg" alt="Profile Image" />
+                  </div>
+                  <div class="heading-image">
+                    <div class="heading">
+                      <h3 class="name-cus">Justin Raj</h3>
+                    </div>
+                    <div class="rating-image">
+                      <img
+                        src="https://static.vecteezy.com/system/resources/thumbnails/009/663/927/small/5-star-rating-review-star-transparent-free-png.png"
+                        alt="Rating Image"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <p class="prop">
+                  Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                </p>
+              </div>
+              <div class="review-card">
+                <div class="flex-profile">
+                  <div class="profile-image">
+                    <img src="assets/person_01.jpg" alt="Profile Image" />
+                  </div>
+                  <div class="heading-image">
+                    <div class="heading">
+                      <h3 class="name-cus">Justin Raj</h3>
+                    </div>
+                    <div class="rating-image">
+                      <img
+                        src="https://static.vecteezy.com/system/resources/thumbnails/009/663/927/small/5-star-rating-review-star-transparent-free-png.png"
+                        alt="Rating Image"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <p class="prop">
+                  Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                </p>
+              </div>
+              <div class="review-card">
+                <div class="flex-profile">
+                  <div class="profile-image">
+                    <img src="assets/person_02.jpg" alt="Profile Image" />
+                  </div>
+                  <div class="heading-image">
+                    <div class="heading">
+                      <h3 class="name-cus">Justin Raj</h3>
+                    </div>
+                    <div class="rating-image">
+                      <img
+                        src="https://static.vecteezy.com/system/resources/thumbnails/009/663/927/small/5-star-rating-review-star-transparent-free-png.png"
+                        alt="Rating Image"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <p class="prop">
+                  Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                </p>
+              </div>
+              <div class="review-card">
+                <div class="flex-profile">
+                  <div class="profile-image">
+                    <img src="assets/person_03.jpg" alt="Profile Image" />
+                  </div>
+                  <div class="heading-image">
+                    <div class="heading">
+                      <h3 class="name-cus">Justin Raj</h3>
+                    </div>
+                    <div class="rating-image">
+                      <img
+                        src="https://static.vecteezy.com/system/resources/thumbnails/009/663/927/small/5-star-rating-review-star-transparent-free-png.png"
+                        alt="Rating Image"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <p class="prop">
+                  Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                </p>
+              </div>
+              <!-- Add more review-card divs as needed -->
+              <div class="review-card">
+                <div class="flex-profile">
+                  <div class="profile-image">
+                    <img src="assets/person_04.jpg" alt="Profile Image" />
+                  </div>
+                  <div class="heading-image">
+                    <div class="heading">
+                      <h3 class="name-cus">Antony</h3>
+                    </div>
+                    <div class="rating-image">
+                      <img
+                        src="https://static.vecteezy.com/system/resources/thumbnails/009/663/927/small/5-star-rating-review-star-transparent-free-png.png"
+                        alt="Rating Image"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <p class="prop">
+                  Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per
+                </p>
+              </div>
+
+              <div class="review-card">
+                <div class="flex-profile">
+                  <div class="profile-image">
+                    <img src="assets/person_02.jpg" alt="Profile Image" />
+                  </div>
+                  <div class="heading-image">
+                    <div class="heading">
+                      <h3 class="name-cus">Surendar</h3>
+                    </div>
+                    <div class="rating-image">
+                      <img
+                        src="https://static.vecteezy.com/system/resources/thumbnails/009/663/927/small/5-star-rating-review-star-transparent-free-png.png"
+                        alt="Rating Image"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <p class="prop">
+                  Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per
+                </p>
+              </div>
+
+              <div class="review-card">
+                <div class="flex-profile">
+                  <div class="profile-image">
+                    <img src="assets/person_01.jpg" alt="Profile Image" />
+                  </div>
+                  <div class="heading-image">
+                    <div class="heading">
+                      <h3 class="name-cus">Surendar</h3>
+                    </div>
+                    <div class="rating-image">
+                      <img
+                        src="https://static.vecteezy.com/system/resources/thumbnails/009/663/927/small/5-star-rating-review-star-transparent-free-png.png"
+                        alt="Rating Image"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <p class="prop">
+                  Dorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per
+                </p>
+              </div>
+            </div>
+          </div>
+          <button class="prev" onclick="prevSlide()">❮</button>
+          <button class="next" onclick="nextSlide()">❯</button>
+        </div>
+      </section>
+
+      <!-- Footer Section -->
+      <div id="CONTACTS">
+        <h1 class="heading-h1">Contact-Section</h1>
+        <div class="footer-section">
+          <img src="assets/logo.png" alt="" />
+          <h2>Prochtuerea , 45 Jouteraf nht ,82126</h2>
+          <h2>Opening Hours: Mon-Fri 11:00-00:00 Sat-Sun 15:00 00:00</h2>
+          <h2>Call : <span>(123)456-7890</span></h2>
+          <div class="link-section">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""> <i class="fa-brands fa-instagram"></i></a>
+            <a href=""> <i class="fa-brands fa-youtube"></i></a>
+            <a href=""> <i class="fa-brands fa-twitter"></i></a>
+            <a href=""> <i class="fa-brands fa-google"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- Container class ends here -->
+    </div>
+
+    <!-- Footer section -->
+    <footer class="footer-info">
+      <p>@2024 Cocktail Bar.All Rights Reserved.Terms and Privacy policy</p>
+    </footer>
+
+    <!-- External Script file  -->
+    <script src="app.js"></script>
+  </body>
+</html>
